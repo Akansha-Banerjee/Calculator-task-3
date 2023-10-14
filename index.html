@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+    <head>
+            <title>
+                Simple Calculator
+            </title>
+
+            <link rel="stylesheet" href="calc.css" />
+
+            <script src="calc.js"></script>
+    </head>
+    <body>
+
+        <table border="1">
+
+            <caption><h1>Simple Calculator</h1></caption>
+
+            <tr>
+
+                <!--first row-->
+
+                <!--1st column has width of 3 columns-->
+                <td colspan="3"> <input type="text" id="res"></input></td>
+                <td><button onClick="ac()">AC</button></td>
+                
+            </tr>
+
+            <tr>
+
+               
+                <td ><button onClick="show('1')">1</td>
+                <td><button onClick="show('2')">2</td>
+                <td><button onClick="show('3')">3</button></td>
+                <td><button onClick="show('+')">+</button></td>
+                
+            </tr>
+
+            <tr>
+
+               
+                <td ><button onClick="show('4')">4</button></td>
+                <td><button onClick="show('5')">5</button></td>
+                <td><button onClick="show('6')">6</button></td>
+                <td><button onClick="show('-')">-</button></td>
+                
+            </tr>
+
+            <tr>
+
+               
+                <td ><button onClick="show('7')">7</button></td>
+                <td><button onClick="show('8')">8</button></td>
+                <td><button onClick="show('9')">9</button></td>
+                <td><button onClick="show('*')">*</button></td>
+                
+            </tr>
+            <tr>
+
+               
+                <td ><button onClick="show('0')">0</button></td>
+                <td><button onclick="show('%')">%</button></td>
+                <td><button onClick="show('/')">/</button></td>
+                <td><button onClick="cal()">=</button></td>
+                
+            </tr>
+
+
+        </table>
+
+    </body>
+</html>
